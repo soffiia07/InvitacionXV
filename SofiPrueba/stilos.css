@@ -1,0 +1,125 @@
+.centrado
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p,a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+
+  font-style: normal;
+}
+.normal{
+    font-weight: 300;
+    text-align: center;
+    display: grid;
+}
+
+b{
+    font-weight: 400;
+}
+#titulo1_1{
+    font-family: "Dancing Script", cursiva;
+    font-optical-sizing: auto;
+    font-weight: 619;
+    font-style: normal;
+    font-size: 800%;
+    line-height: 0.0;
+   }
+#texto2_1{
+    font-family: "Dancing Script", cursiva;
+    font-optical-sizing: auto;
+    font-weight: 619;
+    font-style: normal;
+    font-size: 30px; 
+    line-height:0;
+}
+#titulo2_1{
+    font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-style: normal;
+  font-size: 30px;
+}   
+
+
+.page1{
+    
+    color: #fce6e8;
+}
+body{
+    background-image: url(6a12cb8c2594d96ca4d62e67fe81ecf2.png);
+    background-position: no-repeat;
+
+}
+.page2{
+    background-color: rgb(252, 230, 232);
+    color: rgb(43, 10, 17);
+}
+
+#imajenes{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+}
+#separador{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+.rounded-btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    background-color: #422528;
+    color: #fce6e8;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .rounded-btn1:hover {
+    background-color: #bddad7;
+    color: #031917;
+}
+  .rounded-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    background-color: #2b0a11;
+    color: #fce6e8;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .rounded-btn2:hover {
+    background-color: #d5cbec;
+    color: #031917;
+}
+  .container {
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #margin_top_svg{
+    margin-top: -2%;
+  }
